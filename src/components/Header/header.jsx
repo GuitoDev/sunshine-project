@@ -52,7 +52,7 @@ function Header() {
         <Container fluid>
           <Navbar.Brand href="#">
             <img
-              src="public\imgs\logoSunShine.png"
+              src="https://img.icons8.com/color/48/solar-energy.png"
               width="60"
               height="60"
             ></img>

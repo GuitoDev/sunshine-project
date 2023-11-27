@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+    padding: 14px;
+  }
+  .form{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input{
+    background-color: #D9D9D9;
+    margin-bottom: 14px;
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    padding: 0 8px;
+  }
+  
+  .textarea{
+    background-color: #D9D9D9;
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 0;
+    padding: 10px;
+    height: 94px;
+    resize: none;
+  }
+  
+  /* Estilos para telas menores que 768px (Celular) */
+  @media screen and (max-width: 767px) {
+  }
+  
+  /* Estilos para telas entre 768px e 1023px (Tablet) */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+  }
+  /* Estilos para telas a partir de 1024px (Desktop) */
+  @media screen and (min-width: 1024px) {
+  }

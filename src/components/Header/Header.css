@@ -1,0 +1,70 @@
+.infosTop {
+  background-color: #00668c;
+  color: #ffff;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+/*Redes*/
+.socialBtn {
+  border: none;
+  background-color: #00668c;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.socialBtn svg {
+  fill: #ffffff;
+}
+.ulNavbar {
+  /* Estilos para a lista ul */
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+.ulNavbar li {
+  display: inline; /* Exibe os itens da lista na mesma linha */
+  padding: 2rem; /* Espaçamento entre os itens da lista */
+}
+
+.ulNavbar li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: #000; /* Define a cor do texto dos links */
+  /* Adicione outros estilos conforme necessário */
+}
+
+/*Celulares bem pequenos*/
+@media screen and (max-width: 359px) {
+  h6 {
+    font-size: 0.2rem;
+  }
+  .imgTop {
+    width: 1rem;
+    width: 1.8rem;
+  }
+}
+/*Celulares normais*/
+@media screen and (min-width: 360px) and (max-width: 766px) {
+  h6 {
+    font-size: 0.7rem;
+  }
+  .imgTop {
+    width: 1rem;
+    width: 1.8rem;
+  }
+  .ulNavbar li {
+    padding: 2px;
+    display: flex;
+  }
+}
+/* Estilos para telas entre 768px e 1023px (Tablet) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  h6 {
+    font-size: 0.4rem;
+  }
+  .imgTop {
+    width: 1rem;
+  }
+}
+/* Estilos para telas a partir de 1024px (Desktop) */
+@media screen and (min-width: 1024px) {
+}

@@ -1,0 +1,7 @@
+.loader{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    animation-duration: 1s; /* don't forget to set a duration! */
+}

@@ -1,0 +1,23 @@
+
+.tituloSobre h5{
+  color: #2CC464;
+}
+.bntWppSobre{
+  background-color: #ffffff;
+  border: none;
+  margin-top: 10%;
+}
+.videoSobre {
+  width: 100%; /* Garante que o vídeo se ajuste à largura do contêiner */
+  aspect-ratio: 16 / 9; /* Proporção 16:9 padrão para vídeos */
+  height: 25rem;
+}
+@media screen and (max-width: 359px) {
+
+}
+/*Celulares normais*/
+@media screen and (min-width: 360px) and (max-width: 766px) {
+.tituloSobre{
+  text-align: center;
+}
+}
